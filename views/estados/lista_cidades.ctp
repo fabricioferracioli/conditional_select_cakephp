@@ -6,7 +6,6 @@
     <fieldset>
         <legend>CakePHP Way</legend>
 <?php
-var_dump($estados);
     echo $form->input('Estado.estado', array('options' => $estados));
     echo $form->input('Estado.cidades', array('options' => array()));
     echo $ajax->observeField('EstadoEstado',
